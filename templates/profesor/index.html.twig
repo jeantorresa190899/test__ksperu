@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Profesor{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block body %}
+    <h1 class="color-text-profesores">Vista de Profesores</h1>
+
+    <a href='{{ path('app_alumno') }}'>Ir a vista alumnos</a>
+{% endblock %}
